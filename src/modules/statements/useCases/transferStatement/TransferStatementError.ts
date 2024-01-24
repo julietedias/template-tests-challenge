@@ -1,6 +1,6 @@
 import { AppError } from "../../../../shared/errors/AppError";
 
-export namespace CreateStatementError {
+export namespace TransferStatementError {
   export class UserNotFound extends AppError {
     constructor() {
       super('User not found', 404);
